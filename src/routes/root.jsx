@@ -44,7 +44,6 @@ function Root  () {
       <footer>
         <div className='footer'>
        
-      <img className='download-image' src="/public/download.png" alt="" />
       <div className='signin-section'>
       <span>Stay in touch with us</span>
       <input className='email-inputbox' type="text" placeholder='Enter your email address here' />
