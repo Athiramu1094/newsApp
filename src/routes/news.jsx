@@ -12,26 +12,26 @@ export async function loader(){
 function News () {
   const { data } = useLoaderData();
   console.log(data)
+  console.log(data.articles)
   
   
   
   return (
     <>
     
-      <main>
+         <main>
         
         <div className='news'>
-        {data.articles.map((article, index) => (
+        {data.articles && data.articles.map((article, index) => (
+          
           <article className='card' key ={index} >
           <img className='card-image' src={article.urlToImage} alt="No Image Available" />
-          <p className='card-text'>{article.title || "No description available"}</p>
+          <p className='card-text'>{article.title}</p>
           <button className='card-btn'>Read More</button>
           </article>
           )
           )}
-
-  
-  </div>
+        </div>
       </main>
       </>
     );
