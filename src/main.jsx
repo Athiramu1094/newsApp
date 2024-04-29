@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <News />,
         loader: newsLoader,
       },
-    ],
+    ]
   },
 ]);
 
