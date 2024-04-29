@@ -21,8 +21,8 @@ function News () {
       <main>
         
         <div className='news'>
-        {data.articles.map(article => (
-          <article className='card' key ={article.id} >
+        {data.articles.map((article, index) => (
+          <article className='card' key ={index} >
           <img className='card-image' src={article.urlToImage} alt="No Image Available" />
           <p className='card-text'>{article.title || "No description available"}</p>
           <button className='card-btn'>Read More</button>
