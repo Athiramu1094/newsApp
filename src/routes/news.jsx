@@ -12,9 +12,8 @@ export async function loader(){
 function News () {
   const { data } = useLoaderData();
   console.log(data)
-  if (!data || !data.articles) {
-    return <div>Error: No articles available.</div>;
-  }
+  
+  
   
   return (
     <>
