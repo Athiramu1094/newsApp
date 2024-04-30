@@ -47,7 +47,7 @@ nav ul li a:hover{
 }
 
 .card{
-  border: solid black 1px;
+  border: solid rgb(57, 54, 54) 1px;
   border-radius: 1rem;
   padding: 1rem;
   margin-left: 1rem;
@@ -136,11 +136,13 @@ nav ul li a:hover{
   gap: 1rem;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
 
 }
 .email-inputbox{
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   padding: 0.25rem 0.5rem;
   outline: none;
 }
@@ -181,9 +183,9 @@ nav ul li a:hover{
   
   .news{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 1rem;
-    width: 100%;
+    width: 80%;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -229,6 +231,8 @@ nav ul li a:hover{
       padding: 0.25rem 0.5rem;
       font-size: 9px;
     }
+
+   
 
 
 

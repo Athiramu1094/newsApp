@@ -44,6 +44,7 @@ function Root  () {
       <footer>
         <div className='footer'>
        
+     
       <div className='signin-section'>
       <span>Stay in touch with us</span>
       <input className='email-inputbox' type="text" placeholder='Enter your email address here' />
