@@ -5,7 +5,7 @@ import {useLoaderData,
 
 
 export async function loader(){
-  const response = await fetch('https://gnews.io/api/v4/search?q=example&lang=en&country=in&max=10&apikey=d26219d1018fb73d35b512a9cdc0ab7a')
+  const response = await fetch('https://gnews.io/api/v4/search?q=example&lang=en&country=in&max=10&apikey=f0c356bcfefb7f2d8cfef128e4e232dd')
   const data = await response.json()
   return{data}
 }
